@@ -1,3 +1,20 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+Allow: /properties
+Allow: /packers-movers
+Allow: /login
+Allow: /register
+
+# Block private dashboards and protected routes
+Disallow: /user-dashboard
+Disallow: /seller-dashboard
+Disallow: /company-dashboard
+Disallow: /company-requests
+Disallow: /add-property
+Disallow: /wishlist
+Disallow: /my-moves
+Disallow: /profile
+Disallow: /chat/
+Disallow: /admin-dashboard
+
+Sitemap: https://urban-shift-project.vercel.app/sitemap.xml
